@@ -17,7 +17,7 @@ from app.services.format import serialize_facility, serialize_slot
 
 router = APIRouter(prefix="/bookings", tags=["bookings"])
 
-const FOLLOW_UP_NOTE = (
+FOLLOW_UP_NOTE = (
     "Permintaan ini tercatat di JejakMental sebagai simulasi. Tim kami akan "
     "menghubungi Anda untuk memastikan jadwal. Untuk kepastian tercepat, "
     "boleh juga menelepon fasilitas langsung."
